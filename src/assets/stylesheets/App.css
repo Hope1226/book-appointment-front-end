@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Fonts for project */
+
+@font-face {
+  font-family: "Montreal-font";
+  src:
+    url("../fonts/Montreal-regular.woff") format("woff"),
+    url("../fonts/Montreal-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Orev Light";
+  src: url("//db.onlinewebfonts.com/t/20c788a1fca9df5e58734495a1ecf80b.eot");
+  src:
+    url("//db.onlinewebfonts.com/t/20c788a1fca9df5e58734495a1ecf80b.eot?#iefix")
+    format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/20c788a1fca9df5e58734495a1ecf80b.woff2")
+    format("woff2"),
+    url("//db.onlinewebfonts.com/t/20c788a1fca9df5e58734495a1ecf80b.woff")
+    format("woff"),
+    url("//db.onlinewebfonts.com/t/20c788a1fca9df5e58734495a1ecf80b.ttf")
+    format("truetype"),
+    url("//db.onlinewebfonts.com/t/20c788a1fca9df5e58734495a1ecf80b.svg#Orev Light")
+    format("svg");
+}

@@ -1,0 +1,99 @@
+.ant-drawer-content-wrapper {
+  width: 200px !important;
+}
+
+.ant-drawer-body {
+  padding: 30px 0 0 0 !important;
+}
+
+.hamburger-menu-black {
+  cursor: pointer;
+  width: 25px;
+  height: 20px;
+  display: block;
+  border: none;
+  padding: 0;
+  margin: 20px;
+  background: linear-gradient(to bottom, black, black 20%, transparent 20%, transparent 40%, black 40%, black 60%, transparent 60%, transparent 80%, black 80%, black 100%);
+  position: fixed;
+  z-index: 1;
+}
+
+.hamburger-menu-white {
+  cursor: pointer;
+  width: 25px;
+  height: 20px;
+  display: block;
+  border: none;
+  padding: 0;
+  margin: 20px;
+  background: linear-gradient(to bottom, white, white 20%, transparent 20%, transparent 40%, white 40%, white 60%, transparent 60%, transparent 80%, white 80%, white 100%);
+  position: fixed;
+  z-index: 1;
+}
+
+.title-logo {
+  width: 100%;
+}
+
+/* Menu options style */
+
+.ul_menu_container {
+  list-style-type: none;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-options {
+  height: 40px;
+  text-align: left;
+  padding-left: 15px;
+  margin-left: 15px;
+  padding-top: 6px;
+  font-size: 18px;
+  font-family: 'Montreal-font', sans-serif;
+  color: black;
+  font-weight: 600;
+}
+
+.menu-options:hover {
+  color: inherit;
+}
+
+.active {
+  color: white;
+  background-color: #97bf0f;
+}
+
+.ant-carousel {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+  font-variant: tabular-nums;
+  line-height: 1.5715;
+  list-style: none;
+  font-feature-settings: 'tnum', "tnum";
+}
+
+.ant-carousel .slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  touch-action: pan-x !important;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  height: 100vh !important;
+}
+
+@media only screen and (max-width: 400px) {
+  .hamburger-menu-white {
+    background: linear-gradient(to bottom, black, black 20%, transparent 20%, transparent 40%, black 40%, black 60%, transparent 60%, transparent 80%, black 80%, black 100%);
+  }
+}
